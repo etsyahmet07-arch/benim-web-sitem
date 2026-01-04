@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Benim İlk Web Sitem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef6ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ahmet'in Web Sitesi</h1>
+    <p>Kendi yaptığım ilk web sitesi</p>
+</header>
+
+<section>
+    <h2>Hakkımda</h2>
+    <p>Merhaba! Ben Ahmet. HTML ve CSS öğreniyorum ve kendi web sitemi yapıyorum.</p>
+    <button onclick="mesajGoster()">Bana Tıkla</button>
+
+</section>
+
+<footer>
+    <p>© 2026 Benim Web Sitem</p>
+</footer>
+<script>
+    function mesajGoster() {
+        alert("Merhaba Ahmet! Web sitesi yapmayı öğreniyorsun 👏");
+    }
+</script>
+
+</body>
+</html>
